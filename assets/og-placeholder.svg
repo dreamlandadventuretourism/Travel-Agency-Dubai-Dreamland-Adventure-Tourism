@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamland Adventure Tourism Open Graph Image</title>
+  <desc id="desc">Placeholder banner for Dreamland Adventure Tourism showing travel agency branding.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3d5c" />
+      <stop offset="100%" stop-color="#1a87a3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGradient)" rx="24" />
+  <g fill="#ffffff" font-family="'Montserrat', 'Arial', sans-serif">
+    <text x="80" y="200" font-size="70" font-weight="600">Dreamland Adventure Tourism</text>
+    <text x="80" y="300" font-size="48" font-weight="400">Licensed Travel &amp; Tour Agency in Dubai</text>
+    <text x="80" y="400" font-size="32" font-weight="300">Private tours • Airport transfers • Custom packages</text>
+    <text x="80" y="480" font-size="28" font-weight="500">Visit dreamlandadventuretourism.com</text>
+  </g>
+</svg>

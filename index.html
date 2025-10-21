@@ -391,6 +391,24 @@
       </p>
     </div>
   </footer>
+
+  <!-- Floating Action Button -->
+  <div class="floating-action-btn">
+    <div class="fab-options" id="fabOptions">
+      <a href="https://wa.me/971524472719" class="fab-option whatsapp" target="_blank" rel="noopener">
+        <div class="fab-option-icon">💬</div>
+        <span>WhatsApp</span>
+      </a>
+      <a href="tel:+971524472719" class="fab-option call">
+        <div class="fab-option-icon">📞</div>
+        <span>Call Now</span>
+      </a>
+    </div>
+    <button class="fab-main" id="fabMain" aria-label="Contact Us">
+      💬
+    </button>
+  </div>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     
@@ -406,6 +424,23 @@
           });
         }
       });
+    });
+
+    // Floating Action Button functionality
+    const fabMain = document.getElementById('fabMain');
+    const fabOptions = document.getElementById('fabOptions');
+
+    fabMain.addEventListener('click', function() {
+      fabOptions.classList.toggle('show');
+      fabMain.classList.toggle('active');
+    });
+
+    // Close FAB options when clicking outside
+    document.addEventListener('click', function(event) {
+      if (!event.target.closest('.floating-action-btn')) {
+        fabOptions.classList.remove('show');
+        fabMain.classList.remove('active');
+      }
     });
   </script>
 </body>
